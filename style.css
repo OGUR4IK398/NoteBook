@@ -11,7 +11,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     margin: auto;
-    width: 1440px;
+    width: 1520px;
     /* background-color: aqua; */
     padding: 20px;
 }
@@ -26,11 +26,14 @@
 .note {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 300px;
     width: 400px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 40px;
     margin-right: 40px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -47,19 +50,41 @@
     background-color:blue;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    width: auto;
+    justify-content: end;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
 .add-note {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 400px;
+    /* height: 300px; */
+    /* width: 400px; */
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    padding: 20px;
+    /* padding: 20px; */
     margin-bottom: 40px;
-    margin-right: 40px;
+    margin-right: 40px; 
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 0.3s;
 }
 
 .add-note:hover{
