@@ -11,7 +11,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     margin: auto;
-    width: 1520px;
+    width: 90%;
     /* background-color: aqua; */
     padding: 20px;
 }
@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 300px;
-    width: 400px;
+    width: 23%;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 20px;
