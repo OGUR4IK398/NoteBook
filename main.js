@@ -17,7 +17,7 @@ addBtn.addEventListener("click", (e)=>{
 
     const newNote = document.createElement("div");
     newNote.classList.add("note");
-    newNote.innerHTML = '<div class="content"><h1 contenteditable="true">Название</h1><div class="divider"></div><p contenteditable="true"></p></div><div class="buttons"><div class="btn del"></div><div class="btn edit"></div></div>';
+    newNote.innerHTML = '<div class="content"><h1 contenteditable="true">Название</h1><div class="divider"></div><p contenteditable="true">Заметка</p></div><div class="buttons"><div class="btn del"></div></div>';
 
 
     // Программирование кнопки удаление записи
