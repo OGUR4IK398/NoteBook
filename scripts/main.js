@@ -5,15 +5,7 @@ const addBtn = document.querySelector(".add-note");
 
 addBtn.addEventListener("click", (e)=>{
 
-    const notes = document.querySelector(".notes");
-
-    // Удаление блока добавления элемнта
-    // if (e.target.classList.contains("add-icon")){
-    //     e.target.parentNode.remove();
-    // } else {
-    //     e.target.remove();
-    // }
-    
+    const notes = document.querySelector(".notes");    
 
     const newNote = document.createElement("div");
     newNote.classList.add("note");
