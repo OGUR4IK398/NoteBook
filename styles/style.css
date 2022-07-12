@@ -11,6 +11,7 @@
     width: 80%;
     /* background-color: aqua; */
     padding: 20px;
+    z-index: 2000;
 }
 
 .notes {

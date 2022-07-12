@@ -15,12 +15,20 @@ body {
 
 .menu {
     background-color: red;
-    width: 5%;
+    width: 3%;
     transition: width 0.2s ease-in-out;
 }
 
 .menu:hover {
     width: 10%;
+}
+
+.menu__list {
+    
+}
+
+.menu:hover .menu__list{
+    display: block;
 }
 
 
